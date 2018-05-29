@@ -13,6 +13,7 @@ def input_to_index(num)
 end
 
 def move(board, position, x_or_o = "X")
+  board[position] = x_or_o
   
 end
   
